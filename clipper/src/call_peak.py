@@ -993,6 +993,7 @@ def call_peaks(interval, gene_length, bam_file=None, max_gap=25,
     peak_dict['nreads'] = int(nreads_in_gene)
     peak_dict['threshold'] = premRNA_threshold
     peak_dict['loc'] = interval
+    peak_dict['wiggle'] = wiggle
 
     peak_number = 0
 
